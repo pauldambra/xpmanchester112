@@ -1,16 +1,23 @@
 {
   "name": "xpmanchester111",
   "version": "1.0.0",
-  "description": "",
+  "repository": "git@github.com:pauldambra/xpmanchester112.git",
+  "description": "The bowling kata and some typescript experimenting from xpmanchester112 activity",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc --declaration",
+    "lint": "tslint --project tsconfig.json",
     "test": "mocha",
     "test-watch": "mocha --watch"
   },
   "author": "",
-  "license": "CC-BY-SA",
-  "dependencies": {
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   }
 }

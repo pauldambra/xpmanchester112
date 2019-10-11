@@ -1,4 +1,4 @@
-const expect = require('chai').expect
+import { expect } from 'chai'
 
 describe ('bowling', function() {
   it('scores two fives', function() {
